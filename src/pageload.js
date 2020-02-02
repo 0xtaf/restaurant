@@ -10,6 +10,10 @@ const firstLoad = (() => {
     tabBar.className = "tab-bar";
     document.body.insertBefore(tabBar, bg);
 
+    const tabColor = document.createElement('div');
+    tabColor.className = "tab-color";
+    document.body.insertBefore(tabColor, tabBar);
+
 
     const btnContact = document.createElement('button');
     btnContact.className = "btnNav"

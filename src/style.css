@@ -23,7 +23,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    margin-top: -32px;
+    margin-top: 0;
     /* filter: blur(5px);
     -webkit-filter: blur(5px); */
 }
@@ -58,7 +58,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    margin-top: -32px;
+    margin-top: 0px;
     filter: blur(5px);
     -webkit-filter: blur(5px); 
 }
@@ -110,12 +110,50 @@ p.intro{
     z-index: 1;
     left: 0;
     right: 0;
+    margin-left: 72%;
+    
+}
+
+.tab-color{
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
     background-color: black;
     opacity: 0.4;
+    margin-left: 74%;
+    
 }
 
 .btnNav{
     float: right;
+    font-family: 'Birdseye', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    display: block;
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin-left: 6px;
+    /* -webkit-transition: opacity 300ms ease;
+    -moz-transition: opacity 300ms ease;
+    -ms-transition: opacity 300ms ease;
+    transition: opacity 300ms ease; */
 }
 
 .contact {
