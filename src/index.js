@@ -4,7 +4,7 @@ import btnContactFunc from './btnContact';
 import btnMenuFunc from './btnMenu';
 
 
-console.log("the project has begun!");
+
 
 firstLoad.btnHome.addEventListener('click', btnHomeFunc);
 firstLoad.btnMenu.addEventListener('click', btnMenuFunc);

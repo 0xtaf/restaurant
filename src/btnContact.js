@@ -1,5 +1,5 @@
 function btnContactFunc(){
-    console.log("contact button is clicks");
+    
 
     let oldIntro;
     let oldColor;

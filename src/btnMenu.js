@@ -1,5 +1,5 @@
 function btnMenuFunc(){
-    console.log("menu button is clickse");
+    
 
     let oldIntro;
     let oldColor;

@@ -1,5 +1,5 @@
 function btnHomeFunc(){
-    console.log("home button is clicks");
+    
     let content;
     let intro;
     let color;
